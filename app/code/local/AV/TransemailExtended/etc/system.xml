@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <av_transemailextended translate="label">
+            <label>AV_TransemailExtended</label>
+            <sort_order>150</sort_order>
+        </av_transemailextended>
+    </tabs>
+    <sections>
+        <av_transemailextended translate="label" module="adminhtml">
+            <label>Config</label>
+            <tab>av_transemailextended</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>General</label>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <attribute translate="label comment">
+                            <label>Attribute Code</label>
+                            <comment><![CDATA[Which attribute should be displayed in the e-mail / Example: Comma separated list: <br>delivery_time, country_of_manufacture]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </attribute>
+                    </fields>
+                </general>
+            </groups>
+        </av_transemailextended>
+    </sections>
+</config>

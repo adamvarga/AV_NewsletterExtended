@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AV_TransemailExtended>
+            <version>1.0.0</version>
+        </AV_TransemailExtended>
+    </modules>
+    <global>
+        <blocks>
+            <av_transemailextended>
+                <class>AV_TransemailExtended_Block</class>
+            </av_transemailextended>
+        </blocks>
+        <models>
+            <av_transemailextended>
+                <class>AV_TransemailExtended_Model</class>
+            </av_transemailextended>
+        </models>
+    </global>
+     <frontend>
+        <layout>
+            <updates>
+                <av_transemailextended>
+                    <file>transmail_extended.xml</file>
+                </av_transemailextended>
+            </updates>
+        </layout>
+    </frontend>
+</config>

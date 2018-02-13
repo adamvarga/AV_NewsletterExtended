@@ -1,0 +1,11 @@
+{
+    "name":"av/transemailextended",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/adamvarga/AV_TransemailExtended",
+    "description":"Display a custom product attributes with configuration in Magento’s transactional email",
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
+ 

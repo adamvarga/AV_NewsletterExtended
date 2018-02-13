@@ -1,0 +1,5 @@
+app/code/local/AV/TransemailExtended/etc/                                                       app/code/local/AV/TransemailExtended/etc/
+app/design/frontend/base/default/layout/transmail_extended.xml                                  app/design/frontend/base/default/layout/transmail_extended.xml
+app/design/frontend/base/default/template/email/order/items/order/default_extended.phtml        app/design/frontend/base/default/template/email/order/items/order/default_extended.phtml
+app/etc/modules/AV_TransemailExtended.xml                                                       app/etc/modules/AV_TransemailExtended.xml
+
